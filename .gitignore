@@ -1,2 +1,6 @@
-/node_modules/
-/package-lock.json
+logs
+*.log
+.grunt
+/node_modules
+npm-debug.log
+/coverage/
