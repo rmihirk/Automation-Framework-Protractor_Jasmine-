@@ -48,7 +48,7 @@ exports.config = {
         defaultTimeoutInterval: 300000// Increase the default jasmine time interval.
     },
 
-    onComplete: function () {
+    onPrepare: function () {
         browser.ignoreSynchronization = true;
     },
 }
